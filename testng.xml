@@ -1,0 +1,10 @@
+<suite name="TestSuite" parallel="tests" thread-count="2">
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+</suite>
