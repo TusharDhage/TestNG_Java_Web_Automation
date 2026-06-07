@@ -1,7 +1,6 @@
 package pages;
 
 import org.openqa.selenium.*;
-import utils.WaitUtils;
 
 public class DashboardPage {
 
